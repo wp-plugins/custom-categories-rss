@@ -163,12 +163,13 @@ if(substr(get_bloginfo('rss2_url'), -1, 1) == '/') {
 $i=1;
 foreach ($categories as $cat) {
 	
-	echo '<div class="ccrss-checkbox">' . $cat->cat_name . ':<input type="checkbox" name="cat' . $i . '" value="' . $cat->cat_ID . '" /></div>';
+	echo '<div class="ccrss-checkbox"><input type="checkbox" name="cat' . $i . '" value="' . $cat->cat_ID . '" /> ' . $cat->cat_name . '</div>';
 	
 	$i++;
 } ?>
 
 </div>
+<br />
 <input id="all-button" type="button" onclick="window.location.href='<?php bloginfo('rss2_url'); ?>'" style="float:left;" value="<?php _e('All RSS from this site', 'ccrss'); ?>"/>
 <input id="submit-button" type="submit" value="<?php _e('Submit', 'ccrss'); ?>" style="float:left;"/>
 </form>

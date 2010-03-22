@@ -20,7 +20,7 @@ I am open to suggestions to improve the plugin !
 
 1. Upload `custom-category-rss` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Use widget "Custom Categories RSS Widget" or [ccrss exids='X'] (replace "X" with a comma separated list of category IDs you want to exclude if you want display all leave it blank) shortcode in page/post content or place `<?php cc_rss_front_form( $exids = 'X'); ?>` (replace "X" with a comma separated list of category IDs you want to exclude if you want display all leave it blank) in your templates
+1. Use widget "Custom Categories RSS Widget" or `[ccrss exids='X']` (replace "X" with a comma separated list of category IDs you want to exclude if you want display all leave it blank) shortcode in page/post content or place `<?php cc_rss_front_form( $exids = 'X'); ?>` (replace "X" with a comma separated list of category IDs you want to exclude if you want display all leave it blank) in your templates
 
 == Frequently Asked Questions ==
 

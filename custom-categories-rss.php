@@ -145,7 +145,7 @@ function  cc_rss_add_feed() {
  * @since 0.1
  */
 
-function cc_rss_front_form( $excats = '') { ?>
+function cc_rss_front_form( $exids = '') { ?>
 	
 <div id="ccrss">
 <form name="ccrssForm" method="get" action="<?php 
@@ -158,7 +158,7 @@ if(substr(get_bloginfo('rss2_url'), -1, 1) == '/') {
 }
 ?>">
 <div id="ccrss-checkwrap">
- <?php $categories = get_categories( 'exclude=' . $excats ); 
+ <?php $categories = get_categories( 'exclude=' . $exids ); 
 
 $i=1;
 foreach ($categories as $cat) {
@@ -295,7 +295,7 @@ function cc_rss_front_form_func( $atts ) {
 		), $atts));
 	
 	ob_start();
-	cc_rss_front_form( $excats = $exids );
+	cc_rss_front_form( $exids = $exids );
 	$output_string = ob_get_contents();
 	ob_end_clean();
 

@@ -13,14 +13,14 @@ Really simple plugin allowing visitors to grab RSS only from specific categories
 
 I am open to suggestions to improve the plugin!
 
-**Note that you must enable permalinks to use this plugin !**
+**Note that you must enable permalinks to use this plugin!**
 
 == Installation ==
-**Note that you must enable permalinks to use this plugin !**
+**Note that you must enable permalinks to use this plugin!**
 
 1. Upload `custom-category-rss` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Use widget "Custom Categories RSS Widget" or [ccrss exids='X'] (replace "X" with a comma separated list of category IDs you want to exclude if you want display all leave it blank) shortcode in page/post content or place `<?php cc_rss_front_form( $excats = 'X'); ?>` (replace "X" with a comma separated list of category IDs you want to exclude if you want display all leave it blank) in your templates
+1. Use widget "Custom Categories RSS Widget" or [ccrss exids='X'] (replace "X" with a comma separated list of category IDs you want to exclude if you want display all leave it blank) shortcode in page/post content or place `<?php cc_rss_front_form( $exids = 'X'); ?>` (replace "X" with a comma separated list of category IDs you want to exclude if you want display all leave it blank) in your templates
 
 == Frequently Asked Questions ==
 
@@ -28,11 +28,11 @@ I am open to suggestions to improve the plugin!
 
 Yes, of course.
 
-= Can I email you with the support questions ? =
+= Can I email you with the support questions? =
 
 No. Please use integrated forum support system.
 
-= Do you provide some extra "premium" customization ? =
+= Do you provide some extra "premium" customization? =
 
 Yes. You can email me in this case.
 

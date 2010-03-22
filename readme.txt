@@ -1,5 +1,5 @@
 === Custom Categories RSS ===
-Contributors: Justin Tadlock
+Contributors: Jan Bocinec
 Donate link: http://www.wp.sk/
 Tags: rss, feed, custom feed, categories, 
 Requires at least: 2.8

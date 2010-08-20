@@ -1,7 +1,7 @@
 <?php
 /*
 	Plugin Name: Custom Categories RSS
-	Plugin URI: http://www.webikon.sk/
+	Plugin URI: http://www.techforum.sk/
 	Description: Grab RSS only from specific categories
 	Version: 0.1
 	Author: Ján Bočínec

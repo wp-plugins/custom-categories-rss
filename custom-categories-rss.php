@@ -1,11 +1,11 @@
 <?php
 /*
 	Plugin Name: Custom Categories RSS
-	Plugin URI: http://www.wp.sk/
+	Plugin URI: http://www.webikon.sk/
 	Description: Grab RSS only from specific categories
 	Version: 0.1
-	Author: Jan Bocinec
-	Author URI: http://www.webikon.sk/
+	Author: Ján Bočínec
+	Author URI: http://johnnypea.wp.sk/
 	License: GPL2
 
 

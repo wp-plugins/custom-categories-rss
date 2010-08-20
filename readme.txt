@@ -1,6 +1,6 @@
 === Custom Categories RSS ===
 Contributors: JohnnyPea
-Donate link: http://www.wp.sk/
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FUT8H7SGMYE5E
 Tags: rss, feed, custom feed, categories, 
 Requires at least: 2.8
 Tested up to: 2.9.2
